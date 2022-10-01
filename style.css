@@ -1,0 +1,62 @@
+.logo{
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contenido-medio{
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*background: yellow;*/
+    text-align: center;
+}
+
+.caja-texto{
+    /*background: red;*/
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.botones{
+    margin-left: 14vw;
+    display: inline-block;
+}
+
+.boton{
+    /*background: greenyellow;*/
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #247BA0;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: large;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.boton:hover{
+    background-color: #459ABF;
+}
+
+textarea{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    resize: none;
+    padding: 1rem;
+    border-radius: 8px;
+}
