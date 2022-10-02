@@ -7,7 +7,7 @@
 
 .contenido-medio{
     width: 100%;
-    height: 100%;
+    height: 70vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
     /*background: yellow;*/
@@ -19,44 +19,127 @@
     padding: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    width: 30%;
+    width: 40%;
     height: 100%;
     text-align: center;
     display: inline-block;
+    vertical-align:top;
+}
+
+.caja-texto-2{
+    /*background: red;*/
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: inline-block; 
+    vertical-align:top;
+    border-radius: 8px;
+    border-color: #173753;
+    border-style: groove;
+    border-width: 3px;
 }
 
 .botones{
-    margin-left: 14vw;
+    width: 100%;
+    text-align: center;
     display: inline-block;
+    /*background: lawngreen;*/
 }
 
 .boton{
-    /*background: greenyellow;*/
     padding: 1rem 2rem;
-    margin-left: 1rem;
+    margin: .5rem .5rem 0rem;
     text-align: center;
     color: whitesmoke;
-    background-color: #247BA0;
     font-family: 'Signika Negative', sans-serif;
-    font-size: large;
+    font-size: 1.3em;
     padding: 1rem 3rem 1rem 3rem;
     border: none;
     border-radius: 8px;
 }
 
-.boton:hover{
-    background-color: #459ABF;
+#encriptar{
+    background-color: #1F5673;
+}
+
+#encriptar:hover{
+    background-color: #376f8d;
+}
+
+#desencriptar{
+    background-color: #759FBC;
+}
+
+#desencriptar:hover{
+    background-color: #8db1ca;
 }
 
 textarea{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
-    height: 100%;
+    font-size: 1.3em;
+    height: 80%;
     width: 100%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
     resize: none;
     padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
+    border-color: #173753;
+    border-style: groove;
+    border-width: 3px;
+}
+
+#texto-salida{
+    height: 70%;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.3em;
+    /*background: yellow;*/
+    padding: 1rem;
+    background: url(imagenes/munheco.svg);
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+#texto-por-defecto-1{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: auto;
+    vertical-align: bottom;
+    margin-top: -3em;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#texto-por-defecto-2{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: auto;
+    vertical-align: bottom;
+    margin-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.boton#copiar{
+    background: #C1CFDA;
+    color: black;
+    margin-top: 2rem;
+}
+
+.boton#copiar:hover{
+    background: #8ca1b1;
+}
+
+@media screen and (max-width: 810px) {
+    .caja-texto, .contenido-medio, .caja-texto-2{
+        display: block;
+        width: auto;
+        margin-bottom: 4rem;
+    }
+
 }
