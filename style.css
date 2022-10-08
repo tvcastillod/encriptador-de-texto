@@ -10,12 +10,10 @@
     height: 70vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /*background: yellow;*/
     text-align: center;
 }
 
 .caja-texto{
-    /*background: red;*/
     padding: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -27,7 +25,6 @@
 }
 
 .caja-texto-2{
-    /*background: red;*/
     padding: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -46,7 +43,6 @@
     width: 100%;
     text-align: center;
     display: inline-block;
-    /*background: lawngreen;*/
 }
 
 .boton{
@@ -94,41 +90,32 @@ textarea{
     border-width: 3px;
 }
 
+.caja-texto-2 textarea{
+    font-size: auto;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 #texto-salida{
     height: 70%;
-    font-family: 'Signika Negative', sans-serif;
     font-size: 1.3em;
-    /*background: yellow;*/
     padding: 1rem;
-    background: url(imagenes/munheco.svg);
+    word-wrap:break-word;
+    text-align: left;
+    display: block;
+    /*background: url(imagenes/munheco.svg);
     background-position: 50% 35%;
-    background-repeat: no-repeat;
-    vertical-align: bottom;
-}
-
-#texto-por-defecto-1{
-    font-family: 'Signika Negative', sans-serif;
-    font-size: auto;
-    vertical-align: bottom;
-    margin-top: -3em;
-    font-weight: bold;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#texto-por-defecto-2{
-    font-family: 'Signika Negative', sans-serif;
-    font-size: auto;
-    vertical-align: bottom;
-    margin-top: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    background-repeat: no-repeat;*/
+    background-color: whitesmoke;
+    border: none;
 }
 
 .boton#copiar{
     background: #C1CFDA;
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .boton#copiar:hover{
